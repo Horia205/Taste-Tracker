@@ -57,3 +57,27 @@ let friendFavorites = [
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+
+
+
+
+let favoriteTeam = "Novak Djokovic (Serbia)";
+
+const sport = "Tennis";
+
+let player = {
+  name: "Novak Djokovic",
+  position: "Singles Player",
+  pointsPerGame: 4 
+  //tennis doesn't use this points per game system so I left it as 4 because is the maximum
+};
+
+player.gamesPlayed = 1200;
+
+console.log("Favorite Player:", favoriteTeam);
+console.log("Sport:", sport);
+
+console.log("Player Name:", player.name);
+console.log("Position:", player.position);
+console.log("Points Per Game:", player.pointsPerGame);
+console.log("Games Played:", player.gamesPlayed);
